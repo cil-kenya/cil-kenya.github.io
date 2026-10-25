@@ -2,7 +2,7 @@
 <html lang="en"><head><script>/* GitHub Pages runtime for the CIL MSR platform (21-Oct-2026): sign-in and data are handled in the browser.
    Each person's numbers are encrypted; only their Login ID + PIN unlocks them. Feedback / usage go to the Apps Script web app. */
 (function(){
-var SITE={feedbackUrl:"",version:"202610250726"};
+var SITE={feedbackUrl:"",version:"202610251207"};
 var enc=new TextEncoder(),dec=new TextDecoder();
 function b64d(s){return Uint8Array.from(atob(s),function(c){return c.charCodeAt(0)})}
 function hex(buf){return Array.prototype.map.call(new Uint8Array(buf),function(b){return("0"+b.toString(16)).slice(-2)}).join("")}
